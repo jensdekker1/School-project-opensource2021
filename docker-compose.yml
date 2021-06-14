@@ -68,9 +68,9 @@ services:
       - ./app/themes:/var/www/html/themes
       - /etc/localtime:/etc/localtime:ro
     environment:
-      - VIRTUAL_HOST= domein
-      - LETSENCRYPT_HOST= domein 
-      - LETSENCRYPT_EMAIL= jouw email 
+      - VIRTUAL_HOST= dekker-it.nl
+      - LETSENCRYPT_HOST= dekker-it.nl
+      - LETSENCRYPT_EMAIL= Jensdekker1@protonmail.com
     restart: unless-stopped
 
 volumes:
