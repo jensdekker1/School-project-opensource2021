@@ -1,4 +1,7 @@
 !/bin/sh
+
+echo "Ik heb hier geen zin meer in"
+
 echo "Wilt u alvast docker installeren (ja/nee)"
 read input
 if [ "$input" == "nee" ];
